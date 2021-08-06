@@ -12,7 +12,7 @@ const NotFound = () => {
             router.push('/')
         }, 3000)
 
-    }, [])
+    }, [router])
 
     return (
     <div className="not-found">
